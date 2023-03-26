@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600;1,700;1,800&family=Oswald:wght@200;300;400&family=Poppins:ital,wght@0,300;0,400;0,900;1,300&family=Quicksand:wght@700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Tapestry&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+        <a href="#"><img src="logo.png" class="logo"></a>
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Menu</a></li>
+            <li><a href="#"> What's New</a></li>
+            <li><a href="#"> Contant</a></li>
+        </ul>
+    </header>
+    <div class="content">
+        <div class="textBox">
+            <h2>It's Not Just Coffe<br>
+            It's <span> Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis atque dolorem eligendi quas nisi doloremque illum labore iure nemo commodi fuga officia corporis odio cumque quae perferendis numquam, magni vitae!</p>
+            <a href="#"> Learn More</a>
+        </div>
+        <div class="imgBox">
+        <img src="img1.png" class="starbucks">
+        </div>
+        <ul class="thumb">
+            <li><img src="thumb1.png" onclick="imgSlider"></li>
+            <li><img src="thumb2.png" onclick=""></li>
+            <li><img src="thumb3.png" onclick=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks') .src = anything;
+        }
+    </script>
+</body>
+</html>
